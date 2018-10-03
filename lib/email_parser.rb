@@ -10,6 +10,6 @@ class EmailParser
   end
   
   def parse
-    self.emails.split(//).uniq 
+    emails.split(//).uniq 
   end
 end
